@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+  color: inherit;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea, select {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  line-height: 1;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:active, a:focus, a:visited {
+  color: inherit;
+}
+
+a, a:visited {
+  text-decoration: none;
+  line-height: 1;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a, button {
+  line-height: 1;
+}
+
+button {
+  background: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input, div {
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input, select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input::-webkit-search-decoration, input::-webkit-search-cancel-button, input::-webkit-search-results-button, input::-webkit-search-results-decoration {
+  display: none;
+}
+
+::selection {
+  background: rgba(136, 171, 240, 0.3);
+  color: inherit;
+}
+
+::-moz-selection {
+  background: rgba(136, 171, 240, 0.3);
+  color: inherit;
+}
+
+::-webkit-selection {
+  background: rgba(136, 171, 240, 0.3);
+  color: inherit;
+}
+
+html {
+  font-size: 0.625rem;
+}
+
+html,
+body {
+  height: 100%;
+  background: #fff;
+  font-family: "Arial", sans-serif;
+  line-height: 1.4;
+  color: #000;
+}
+
+body.blocked {
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
